@@ -53,6 +53,8 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ## Media Test
 
+
+
 ![Scary Bilbo Baggins](https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/scary-bilbo-baggins.jpg?raw=true)
 
 ![Jar Jar Binks](https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/star-wars-jar-jar-binks.gif?raw=true)
