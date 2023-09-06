@@ -4,7 +4,6 @@ import digitalio
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT 
 import time 
-led.
  
 while True: 
     led.value = True 
