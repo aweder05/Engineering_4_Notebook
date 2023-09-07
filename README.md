@@ -3,31 +3,34 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
+* [Raspberry_Pi_Assignments](#raspberry_pi_assignments)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
 
-## Raspberry_Pi_Assignment_Template
+## Raspberry_Pi_Assignments
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+In Launch Pad Part 1, the goal is to countdown from 10 seconds down to Liftoff (at 0 seconds). That countdown must be printed to the serial monitor
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/launchpadpart1gif.gif?raw=true" width="400">
+
+##### In the above video, the serial monitor can be seen printing T-Minus, and then the countdown from ten seconds to liftoff. 
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+The wiring for this assignment was very simple. The PicoW board was simply plugged into the COM11 port on my computer. 
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+Her is a link to the **commented code** for this assignment: [Click Here](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/Lauch_Pad_Part_1.py)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was pretty straightforward. I got some help from classmates in re-learning the syntax for VS Code. Other than that, I had little no issues with my code, other than sometimes having to google certain ways of formatting code, such as time.sleep of print.("What is being printed"). There were some struggles sometimes with having to connect to the PicoW board from VS Code, but these issues can be solved with a variety of solutions. (Unplugging, Running through code.py, etc.)
 
 &nbsp;
 
