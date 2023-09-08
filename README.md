@@ -42,6 +42,22 @@ This assignment was pretty straightforward. I got some help from classmates in r
 
 ### Description
 
+The goal for this assignment is to: 
+
+a) Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial monitor.
+
+b) Blink a red light each second of the countdown, and turn on a green LED to signify liftoff.
+
+### Evidence 
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/launchpadpart2gif.gif?raw=true" width="400">
+
+##### In the above video, the serial monitor can be seen counting down from 10, with the red LED blinking for each second, and the green LED staying stagnant once the timer reaches zero, or "liftoff".
+
+### Wiring 
+
+
+
 &nbsp;
 
 ## Onshape_Assignment_Template
