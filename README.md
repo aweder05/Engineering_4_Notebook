@@ -56,6 +56,10 @@ b) Blink a red light each second of the countdown, and turn on a green LED to si
 
 ### Wiring 
 
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/launchpadpart2wiringdiagram.png?raw=true" width="400">
+
+### Code 
+
 
 
 &nbsp;
