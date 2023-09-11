@@ -60,7 +60,11 @@ b) Blink a red light each second of the countdown, and turn on a green LED to si
 
 ### Code 
 
+Here is a link to the commented code for this assignment: [click here](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/Launch_Pad_Part_2.py)
 
+### Reflection 
+
+This assignment was relatively straightforward, since I already had the outline from the previous assignment. The only thing that I really had to do was integrate a Red and Green LED into the timing, and wire it all up. At first I was a little confused on how to make the Red LED flash while still counting down, but then I realized for every second that passes, I could just have the Red LED on for half a second, and off for half a second. This worked out perfectly, and I completed the rest of the assignment with little to no issues. 
 
 &nbsp;
 
