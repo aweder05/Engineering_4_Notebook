@@ -14,14 +14,14 @@ ledRed.direction = digitalio.Direction.OUTPUT
 
 buttonPress.pull = digitalio.Pull.UP
 
-numberPress = 0 
+numberPress = 0 ## sets a variable for the number of button presses
 
 Seconds = 10 ## Sets the amount of time that the code is counting down from 
 
 while True: 
     if buttonPress.value == False:
-        numberPress = numberPress + 1 
-    if numberPress > 0: 
+        numberPress = numberPress + 1 ## adds 1 to whenever the button is pressed
+    if numberPress > 0: ## if the button has been pressed, then "numberpress" will be >0 
         if Seconds > 0: 
             print("T-Minus", Seconds) ## Prints the amount of seconds remaining
             ledRed.value = True ## Turns on the Red LED 
