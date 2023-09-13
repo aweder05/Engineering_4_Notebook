@@ -85,9 +85,9 @@ The criteria for the following assignment is as follows:
 
 ### Evidence 
 
-Insert gif here 
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/launchpadpart3gif.gif?raw=true" width=400>
 
-##### (insert caption here)
+##### The button is pressed once briefly, and then the countdown begins. 
 
 ### Wiring 
 
@@ -95,7 +95,11 @@ Insert gif here
 
 ### Code 
 
+Here is a link for the **commented code** : [link](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/Launch_Pad_Part_3.py)
+
 ### Reflection
+
+This assignment was also relatively straighforward, as all I essentially had to do was add a button. The tricky part was learning all the new wiring and syntax for the button on the new PicoW board. In the end, my button had to pressed down for the duration of the countdown, which wasnt what I wanted. To fix this, I created a variable that went up each time the button was pressed, and if the variable >0, then the countdown would run. 
 
 ## **Onshape_Assignment_Template**
 
