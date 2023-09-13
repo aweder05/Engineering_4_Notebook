@@ -6,6 +6,7 @@
 * [Raspberry Pi Assignments](#raspberry_pi_assignments)
     * [Launch Pad Part 1](#launch_pad_part_1)
     * [Launch Pad Part 2](#launch_pad_part_2)
+    * [Launch Pad Part 3](#launch_pad_part_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -35,6 +36,8 @@ Her is a link to the **commented code** for this assignment: [Click Here](https:
 ### Reflection
 
 This assignment was pretty straightforward. I got some help from classmates in re-learning the syntax for VS Code. Other than that, I had little no issues with my code, other than sometimes having to google certain ways of formatting code, such as time.sleep of print.("What is being printed"). There were some struggles sometimes with having to connect to the PicoW board from VS Code, but these issues can be solved with a variety of solutions. (Unplugging, Running through code.py, etc.)
+
+&nbsp;
 
 ----
 
@@ -68,7 +71,33 @@ This assignment was relatively straightforward, since I already had the outline 
 
 &nbsp;
 
-## Onshape_Assignment_Template
+----
+
+## Launch_Pad_Part_3
+
+### Description 
+
+The criteria for the following assignment is as follows: 
+* Countdown from 10 seconds to 0 (liftoff). 
+* Print that countdown to the serial monitor.
+* Blink a red light each second of the countdown, and turn on a green LED to signify liftoff.
+* (New) **Include a physical button that starts the countdown.**
+
+### Evidence 
+
+Insert gif here 
+
+##### (insert caption here)
+
+### Wiring 
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/launchpadpart3wiringdiagram.png?raw=true" width="400">
+
+### Code 
+
+### Reflection
+
+## **Onshape_Assignment_Template**
 
 ### Assignment Description
 
