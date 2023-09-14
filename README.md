@@ -7,6 +7,7 @@
     * [Launch Pad Part 1](#launch_pad_part_1)
     * [Launch Pad Part 2](#launch_pad_part_2)
     * [Launch Pad Part 3](#launch_pad_part_3)
+    * [Launch Pad Part 4](#launch_pad_part_4)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -100,6 +101,34 @@ Here is a link for the **commented code** : [link](https://github.com/aweder05/E
 ### Reflection
 
 This assignment was also relatively straighforward, as all I essentially had to do was add a button. The tricky part was learning all the new wiring and syntax for the button on the new PicoW board. In the end, my button had to pressed down for the duration of the countdown, which wasnt what I wanted. To fix this, I created a variable that went up each time the button was pressed, and if the variable >0, then the countdown would run. 
+
+&nbsp;
+
+---- 
+
+## Launch_Pad_Part_4
+
+### Description
+
+For this assignment, the objective was to complete the following: 
+* Countdown from 10 seconds to 0 (liftoff). Print that countdown to the serial monitor.
+* Blink a red light each second of the countdown, and turn on a green LED to signify liftoff.
+* Include a physical button that starts the countdown. 
+* Actuate a 180 degree servo on liftoff to simulate the launch tower disconnecting.
+
+### Evidence 
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/launchpadpart4gif.gif?raw=true" width="400">
+
+##### The above video is similar to the video from Launch Pad Part 3, although now a Servo spins 180 degrees at liftoff, before pausing, and then returning to 0 degrees. 
+
+### Wiring 
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/launchpadpart4wiringdiagram.png?raw=true" width="400">
+
+### Code 
+
+Here is a link to the **commented** code for this assignment: [click here]
 
 ## **Onshape_Assignment_Template**
 
