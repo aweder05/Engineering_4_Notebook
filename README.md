@@ -145,6 +145,8 @@ The module must have an accelerometer that continuously reports x, y, and z acce
 
 ### Wiring 
 
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/crashavoidancepart1wiringdiagram.png?raw=true" height="400">
+
 ### Code
 
 ## **Onshape_Assignment_Template**
