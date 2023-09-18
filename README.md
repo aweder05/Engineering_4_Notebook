@@ -8,6 +8,7 @@
     * [Launch Pad Part 2](#launch_pad_part_2)
     * [Launch Pad Part 3](#launch_pad_part_3)
     * [Launch Pad Part 4](#launch_pad_part_4)
+    * [Crash Avoidance Part 1](#crash_avoidance_part_1)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -133,6 +134,18 @@ Here is a link to the **commented** code for this assignment: [click here](https
 ### Reflection
 
 This assignment was more difficult than all of the other ones, since I had to basically revamp my code to work with the servo. At first, when I tried integrating the servo into my old code, the servo would always buzz at liftoff, and I couldn't figure out a way to stop the buzzing, or at least prevent it from buzzing indefinitely. Eventually, with help from Vinnie Jones, I changed my seconds variable to a ``for x in range `` line. This ended up working much better because I was able to chronologically count down from 10, then have the servo spin, then wait, and then have it return back to 0. This is because I scrapped the ``else`` line, which confused me anyway. 
+
+## Crash_Avoidance_Part_1
+
+### Description
+
+The module must have an accelerometer that continuously reports x, y, and z acceleration values on the serial monitor.
+
+### Evidence
+
+### Wiring 
+
+### Code
 
 ## **Onshape_Assignment_Template**
 
