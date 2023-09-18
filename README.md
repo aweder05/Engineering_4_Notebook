@@ -143,11 +143,15 @@ The module must have an accelerometer that continuously reports x, y, and z acce
 
 ### Evidence
 
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/ezgif.com-video-to-gif.gif?raw=true" width="400">
+
 ### Wiring 
 
 <img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/crashavoidancepart1wiringdiagram.png?raw=true" height="400">
 
 ### Code
+
+Here is a link to the **commented** code for this assignment: [click here](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Part_1.py)
 
 ## **Onshape_Assignment_Template**
 
