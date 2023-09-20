@@ -1,5 +1,6 @@
 # type: ignore
 
+import digitalio
 import board
 import adafruit_mpu6050 
 import busio
@@ -8,6 +9,9 @@ import time
 sda_pin = board.GP14 ## States the pin for SDA
 scl_pin = board.GP15 ## States the pin for SCL
 i2c = busio.I2C(scl_pin, sda_pin) ## States the pins for I2C
+
+ledRed = digitalio.DigitalInOut(board.GP1) ## Sets the pin number for the Red LED
+ledRed.direction = digitalio.Direction.OUTPUT  
 
 mpu = adafruit_mpu6050.MPU6050(i2c)
 
@@ -22,4 +26,9 @@ while True:
     print("") ## Adds a space between each reading 
     
     time.sleep(.1) ## Adds a slight pause after each cycle 
+
+    if ZAcceleration < 0:
+        ledRed.value = True ## Turns on the Red LED
+    else:
+        ledRed.value = False
 
