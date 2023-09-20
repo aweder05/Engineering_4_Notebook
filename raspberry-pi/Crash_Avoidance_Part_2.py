@@ -30,5 +30,5 @@ while True:
     if ZAcceleration < 0:
         ledRed.value = True ## Turns on the Red LED
     else:
-        ledRed.value = False
+        ledRed.value = False ## Turns off the Red LED when the accelerometer is not tilted to exactly 90 degrees
 

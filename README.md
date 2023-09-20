@@ -9,6 +9,7 @@
     * [Launch Pad Part 3](#launch_pad_part_3)
     * [Launch Pad Part 4](#launch_pad_part_4)
     * [Crash Avoidance Part 1](#crash_avoidance_part_1)
+    * [Crash Avoidance Part 2](#crash_avoidance_part_2)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 
 &nbsp;
@@ -156,6 +157,41 @@ Here is a link to the **commented** code for this assignment: [click here](https
 ### Reflection 
 
 This assignment was pretty straightforward, except for the new  syntax that I had to learn for this specific sensor. Other than that, It was essentially the same principle as printing values from an HC-SR04 sensor onto the serial monitor. The way that the brackets were set up within the code to print the respectful values. It was interesting to learn how tuples worked, and how to integrate them into my code. Credit goes to Grant Gastinger for explaining how they work to me. 
+
+&nbsp;
+
+---- 
+
+## Crash_Avoidance_Part_2
+
+### Description
+
+The objective of this assignment was as follows: 
+* The module must have an accelerometer that continuously reports x, y, and z acceleration values.
+* The module must have an LED that turns on if the helicopter is tilted to 90 degrees. 
+* The module must be powered by a mobile power source. 
+
+### Evidence 
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/crashavoidancepart2gif.gif?raw=true" width="400">
+
+##### Here you can see myself holding up my contraption, tilting it to 90 degrees on each side, with the red indicator led light turning on once my accelerometer is tilted 90 degrees. 
+
+### Wiring
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/crashavoidancepart2wiringdiagram.png?raw=true" height="300">
+
+### Code 
+
+Here is a link to my commented code for this assignment: [click here](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Part_2.py)
+
+### Reflection
+
+Even though this assignment only added about 4 lines of code, It was tricky to figure out how acceleration worked so I could find the value at which to turn on my Red Led. Other than that, I came across my usual incompetence at using the proper syntax for the simplest lines, especially colons after ```if else``` statements. At first I thought wiring up a battery to turn my PicoW mobile would be difficult, but it was really just a matter of plugging in two wires and a battery. 
+
+&nbsp;
+
+----
 
 ## **Onshape_Assignment_Template**
 
