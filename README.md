@@ -155,7 +155,7 @@ Here is a link to the **commented** code for this assignment: [click here](https
 
 ### Reflection 
 
-This assignment was pretty straightforward, except for the new  syntax that I had to learn for this specific sensor. Other than that, It was essentially the same principle as printing values from an HC-SR04 sensor onto the serial monitor
+This assignment was pretty straightforward, except for the new  syntax that I had to learn for this specific sensor. Other than that, It was essentially the same principle as printing values from an HC-SR04 sensor onto the serial monitor. The way that the brackets were set up within the code to print the respectful values. It was interesting to learn how tuples worked, and how to integrate them into my code. Credit goes to Grant Gastinger for explaining how they work to me. 
 
 ## **Onshape_Assignment_Template**
 
