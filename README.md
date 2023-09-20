@@ -153,6 +153,10 @@ The module must have an accelerometer that continuously reports x, y, and z acce
 
 Here is a link to the **commented** code for this assignment: [click here](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Part_1.py)
 
+### Reflection 
+
+This assignment was pretty straightforward, except for the new  syntax that I had to learn for this specific sensor. Other than that, It was essentially the same principle as printing values from an HC-SR04 sensor onto the serial monitor
+
 ## **Onshape_Assignment_Template**
 
 ### Assignment Description
