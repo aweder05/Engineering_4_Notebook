@@ -49,4 +49,8 @@ while True:
         ledRed.value = True ## Turns on the Red LED
     else:
         ledRed.value = False ## Turns off the Red LED when the accelerometer is not tilted to exactly 90 degrees
+    
+    text_area.text = f"Rotation: \n X:{round(mpu.gyro[0],3)} \n Y:{round(mpu.gyro[1],3)} \n Z:{round(mpu.gyro[2],3)}"
+
+
 
