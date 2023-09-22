@@ -14,17 +14,20 @@ import time
 
 displayio.release_displays()
 
+sda_pin = board.GP14 ## States the pin for SDA
+scl_pin = board.GP15 ## States the pin for SCL
+
+i2c = busio.I2C(scl_pin, sda_pin) ## States the pins for I2C
+
 display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP13)
 display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
-sda_pin = board.GP14 ## States the pin for SDA
-scl_pin = board.GP15 ## States the pin for SCL
-i2c = busio.I2C(scl_pin, sda_pin) ## States the pins for I2C
+
 
 ledRed = digitalio.DigitalInOut(board.GP1) ## Sets the pin number for the Red LED
 ledRed.direction = digitalio.Direction.OUTPUT  
 
-mpu = adafruit_mpu6050.MPU6050(i2c, adresss=0x68)
+mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68)
 
 splash = displayio.Group()
 title = "ANGULAR VELOCITY"
