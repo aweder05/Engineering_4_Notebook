@@ -193,6 +193,40 @@ Even though this assignment only added about 4 lines of code, It was tricky to f
 
 ----
 
+## Crash_Avoidance_Part_3
+
+### Description
+
+The objective for the assignment was to complete the following: 
+* The module must have an accelerometer that continuously reports x, y, and z acceleration values.
+* The module must have an LED that turns on if the helicopter is tilted to 90 degrees. 
+* The module must be powered by a mobile power source. 
+* The module must have an onboard screen that prints x, y, and z angular velocity values (rad/s) rounded to 3 decimal places.
+
+### Evidence
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/crashavoidancepart3gif.gif?raw=true" width="400">
+
+##### Here is a gif of me showing the OLED screen printing the respective X Y and Z acceleration values. 
+
+### Wiring 
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/crashavoidancepart3wiringdiagram.png?raw=true" width="400">
+
+### Code
+
+For this assignment, I first ran this [i2c test](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/i2ctest.py) code to figure out the different addresses of my two I2C devices, my MPU-6050 accelerometer, and my OLED display
+
+Eventually, I came up with this final version of my code to make everything work flawlessly: [click here](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/Crash_Avoidance_Part_3.py)
+
+### Reflection
+
+This assignment was a little tricky because at first I didn't really understand how to convert my entire loop into something that could be printed onto my OLED display. For this assignment it really helped me to very thoroughly read through the canvas module and use all of that information provided. The wiring was relatively straightforward, although I had to wire up a new breadboard in order to make room for my OLED display, since my previous breadboard was all cluttered up with my MPU-6050, battery adapter, and Circuitpython PicoW board. 
+
+&nbsp;
+
+----
+
 ## **Onshape_Assignment_Template**
 
 ### Assignment Description
@@ -236,3 +270,5 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 ### Test Image
 
 ### Test GIF
+
+
