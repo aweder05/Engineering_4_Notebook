@@ -12,6 +12,7 @@
     * [Crash Avoidance Part 2](#crash_avoidance_part_2)
     * [Crash Avoidance Part 3](#crash_avoidance_part_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
+* [Beam_Design](#beam_design)
 
 &nbsp;
 
