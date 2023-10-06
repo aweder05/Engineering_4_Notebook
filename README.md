@@ -228,6 +228,36 @@ This assignment was a little tricky because at first I didn't really understand 
 
 ----
 
+## Beam_Design
+
+### Assignment Description
+Create a beam within the [parameters](https://github.com/sechen12/Engineering_4_Notebook/files/12783413/Assignment.Requirements_.pdf) to hold the heaviest bucket.
+### Part Link
+
+[Onshape Document](https://cvilleschools.onshape.com/documents/5517eb4141dde3d11583bfcf/w/76219d7db810f33e12052ceb/e/62c262db223382f79a959590?renderMode=0&uiState=651ad1bd196827695acf9253)
+
+### Part Image
+
+|Image of Model |Stress |Displacement |
+|-|-|-|
+|<img src="https://github.com/sechen12/Engineering_4_Notebook/assets/112981481/673c98ca-6363-4e1f-b6bc-40ca76358214" width="400"> |<img src="https://github.com/sechen12/Engineering_4_Notebook/assets/112981481/270a59ce-fcc0-43af-bf25-90dcb28b34d0" width="400"> |<img src="https://github.com/sechen12/Engineering_4_Notebook/assets/112981481/c7cba57b-1d80-4629-b370-820978ddee8c" width="400"> |
+
+
+<!-- ![Beam Starter + Holder](https://github.com/sechen12/Engineering_4_Notebook/assets/112981481/673c98ca-6363-4e1f-b6bc-40ca76358214)
+![Assembly 1 (1)](https://github.com/sechen12/Engineering_4_Notebook/assets/112981481/270a59ce-fcc0-43af-bf25-90dcb28b34d0)
+![Assembly v 1](https://github.com/sechen12/Engineering_4_Notebook/assets/112981481/c7cba57b-1d80-4629-b370-820978ddee8c) -->
+
+
+### Reflection
+My partner and I went through multiple rendors of the beam. While we were researching, we found that beams that are taller vertically, and have horizontal support along the tops and bottoms of the beam are strong. We also found that structures that have a ramp will diffuse the tension that is placed on the point where the beam and the cast is connected.
+
+Initially, our beam was wide and flat. We learned by researching strong beam structures, that the most structurally sound beams are taller vertically than horizontally wide. We then concentrated our beam's weight to being taller rather than wider. We played with the idea that if the beam is shaped like a ramp, thicker at the point where the beam meets the frame, and thinner at the end, the beam will be more likely to stay attached.
+
+&nbsp;
+
+----
+
+
 ## **Onshape_Assignment_Template**
 
 ### Assignment Description
