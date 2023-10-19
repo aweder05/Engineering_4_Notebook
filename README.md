@@ -281,7 +281,7 @@ Looking at the first image, our beam went from being able to hold 6.774 lbs to a
 
 &nbsp;
 
-----S
+----
 
 
 ## **Onshape_Assignment_Template**
