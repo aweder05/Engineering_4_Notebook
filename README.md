@@ -269,15 +269,8 @@ Initially, our beam was wide and flat. We learned by researching strong beam str
 
 Looking at the first image, our beam went from being able to hold 6.774 lbs to around 8.2 lbs. We improved our beam by almost 2 pounds.
 
-<<<<<<< HEAD
-## FEA_Part_4
-=======
 ## FEA_part_4
->>>>>>> ae350d2a84d183cc7b629d82860e81af79ca175d
 
-<<<<<<< HEAD
-
-=======
 ### Assignment Description
 Using what we learned from the Onshape course we took during FEA Part 3, we were assigned to run the FEA simulations and ajust the beam accordingly. We had to stay within the parameters (had to be less than 13g in weight, and the beam was considered diqualified from the cometition if it bend past 35mm)
 ### Part Link
@@ -286,7 +279,7 @@ Using what we learned from the Onshape course we took during FEA Part 3, we were
 
 ### Reflection
 
->>>>>>> ae350d2a84d183cc7b629d82860e81af79ca175d
+
 &nbsp;
 
 ----
