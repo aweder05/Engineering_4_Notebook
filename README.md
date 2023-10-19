@@ -259,6 +259,26 @@ My partner and I went through multiple rendors of the beam. While we were resear
 
 Initially, our beam was wide and flat. We learned by researching strong beam structures, that the most structurally sound beams are taller vertically than horizontally wide. We then concentrated our beam's weight to being taller rather than wider. We played with the idea that if the beam is shaped like a ramp, thicker at the point where the beam meets the frame, and thinner at the end, the beam will be more likely to stay attached.
 
+## fea_part_3
+
+|Image of Iterations |Stress |Displacement |
+|-|-|-|
+|<img src="https://github.com/sechen12/Engineering_4_Notebook/assets/112981481/f5899400-47be-4f1e-898a-befa120ed5c8" width="400"> |<img src="" width="400"> |<img src="" width="400"> |
+
+### Reflection
+
+Looking at the first image, our beam went from being able to hold 6.774 lbs to around 8.2 lbs. We improved our beam by almost 2 pounds.
+
+## fea_part_4
+
+### Assignment Description
+
+### Part Link
+
+### Part Image
+
+### Reflection
+
 &nbsp;
 
 ----S
