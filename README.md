@@ -259,7 +259,7 @@ My partner and I went through multiple rendors of the beam. While we were resear
 
 Initially, our beam was wide and flat. We learned by researching strong beam structures, that the most structurally sound beams are taller vertically than horizontally wide. We then concentrated our beam's weight to being taller rather than wider. We played with the idea that if the beam is shaped like a ramp, thicker at the point where the beam meets the frame, and thinner at the end, the beam will be more likely to stay attached.
 
-## fea_part_3
+## FEA_part_3
 
 |Image of Iterations |Stress |Displacement |
 |-|-|-|
@@ -269,10 +269,10 @@ Initially, our beam was wide and flat. We learned by researching strong beam str
 
 Looking at the first image, our beam went from being able to hold 6.774 lbs to around 8.2 lbs. We improved our beam by almost 2 pounds.
 
-## fea_part_4
+## FEA_part_4
 
 ### Assignment Description
-
+Using what we learned from the Onshape course we took during FEA Part 3, we were assigned to run the FEA simulations and ajust the beam accordingly. We had to stay within the parameters (had to be less than 13g in weight, and the beam was considered diqualified from the cometition if it bend past 35mm)
 ### Part Link
 
 ### Part Image
