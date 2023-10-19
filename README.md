@@ -272,14 +272,26 @@ Looking at the first image, our beam went from being able to hold 6.774 lbs to a
 ## FEA_part_4
 
 ### Assignment Description
+
 Using what we learned from the Onshape course we took during FEA Part 3, we were assigned to run the FEA simulations and ajust the beam accordingly. We had to stay within the parameters (had to be less than 13g in weight, and the beam was considered diqualified from the cometition if it bend past 35mm)
+
 ### Part Link
+
+[Onshape Document](https://cvilleschools.onshape.com/documents/5517eb4141dde3d11583bfcf/w/76219d7db810f33e12052ceb/e/731981f9da0684932d2a38a5)
 
 ### Part Image
 
 ### Reflection
 
+<<<<<<< HEAD
+The FEA simulation was very helpful in predicting where the beam was the most weak. Using the simulation, we could repair the areas that were weaker. One thing we learned from the inital beam design, and testing it, was that the point where the beam and the frame connected was weak. Using what we learned from the first iteration, we made the second beam to be better fused to the frame. When we tested our beam for the second time, the beam broke right before the point of connection.
 
+Our first beam did quite well on the first simulation, being able to hold around 7 pounds, while deforming 32mm. The stress for the beam was focused more in the middle-holder side of the beam, and we wanted it to be as close to the holder as possible. Our second beam was able to hold more towards 9 pounds, and was still able to keep a displacement towards 34mm.
+
+
+=======
+
+>>>>>>> 17bb68b28955d590e9b745520e9b7dbcb441ff5a
 &nbsp;
 
 ----
