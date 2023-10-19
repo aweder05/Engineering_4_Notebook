@@ -13,6 +13,9 @@
     * [Crash Avoidance Part 3](#crash_avoidance_part_3)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Beam_Design](#beam_design)
+    * [FEA Part 1](#fea_part_1)
+    * [FEA Part 3](#fea_part_3)
+    * [FEA Part 4](#fea_part_4)
 
 &nbsp;
 
@@ -229,7 +232,9 @@ This assignment was a little tricky because at first I didn't really understand 
 
 ----
 
-## Beam_Design
+## **Beam_Design**
+
+## FEA_Part_1
 
 ### Assignment Description
 Create a beam within the [parameters](https://github.com/sechen12/Engineering_4_Notebook/files/12783413/Assignment.Requirements_.pdf) to hold the heaviest bucket.
@@ -256,7 +261,7 @@ Initially, our beam was wide and flat. We learned by researching strong beam str
 
 &nbsp;
 
-----
+----S
 
 
 ## **Onshape_Assignment_Template**
