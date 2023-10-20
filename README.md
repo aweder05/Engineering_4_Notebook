@@ -278,9 +278,6 @@ Our reinforcement plan will aim to have less bend closer to the holder, and more
 
 Using what we learned from the Onshape course we took during FEA Part 3, we were assigned to run the FEA simulations and ajust the beam accordingly. We had to stay within the parameters (had to be less than 13g in weight, and the beam was considered diqualified from the cometition if it bend past 35mm)
 
-|Image of Iterations |Stress |Displacement |
-|-|-|-|
-|<img src="https://github.com/sechen12/Engineering_4_Notebook/assets/112981481/f5899400-47be-4f1e-898a-befa120ed5c8" width="400"> |<img src="" width="400"> |<img src="" width="400"> |
 
 ### Reflection
 
