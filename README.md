@@ -238,6 +238,10 @@ This assignment was a little tricky because at first I didn't really understand 
 
 ### Assignment Description
 Create a beam within the [parameters](https://github.com/sechen12/Engineering_4_Notebook/files/12783413/Assignment.Requirements_.pdf) to hold the heaviest bucket.
+
+### Evidence 
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/Beam%20Starter%20+%20Holder.png?raw=true" width="400">
+
 ### Part Link
 
 [Onshape Document](https://cvilleschools.onshape.com/documents/5517eb4141dde3d11583bfcf/w/76219d7db810f33e12052ceb/e/62c262db223382f79a959590?renderMode=0&uiState=651ad1bd196827695acf9253)
@@ -265,6 +269,8 @@ Initially, our beam was wide and flat. We learned by researching strong beam str
 ### Reflection
 
 Looking at the first image, our beam went from being able to hold 6.774 lbs to around 8.2 lbs. We improved our beam by almost 2 pounds.
+
+Our reinforcement plan will aim to have less bend closer to the holder, and more evenly distribute the stress across our beam. To do this I will add a horizontal bracket on each side of the beam, jointed with the attachement. This will decrease overall displacement of the beam, while not adding too much weight to our beam in order to stay below a weight of 13 grams. 
 
 ## FEA_part_4
 
