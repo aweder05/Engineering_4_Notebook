@@ -286,6 +286,10 @@ Looking at the first image, our beam went from being able to hold 6.774 lbs to a
 
 ### Part Image
 
+|Image of Model |Stress |Displacement |
+|-|-|-|
+|<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/Beam%20Starter%20+%20Holder%20(1).png?raw=true" width="400"> |<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/Assembly%201%20(2).png?raw=true" width="400"> |<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/Assembly%201%20(3).png?raw=true" width="400"> |
+
 ### Reflection
 
 The FEA simulation was very helpful in predicting where the beam was the most weak. Using the simulation, we could repair the areas that were weaker. One thing we learned from the inital beam design, and testing it, was that the point where the beam and the frame connected was weak. Using what we learned from the first iteration, we made the second beam to be better fused to the frame. When we tested our beam for the second time, the beam broke right before the point of connection.
