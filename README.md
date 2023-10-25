@@ -11,7 +11,6 @@
     * [Crash Avoidance Part 1](#crash_avoidance_part_1)
     * [Crash Avoidance Part 2](#crash_avoidance_part_2)
     * [Crash Avoidance Part 3](#crash_avoidance_part_3)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Beam_Design](#beam_design)
     * [FEA Part 1](#fea_part_1)
     * [FEA Part 3](#fea_part_3)
