@@ -11,6 +11,7 @@
     * [Crash Avoidance Part 1](#crash_avoidance_part_1)
     * [Crash Avoidance Part 2](#crash_avoidance_part_2)
     * [Crash Avoidance Part 3](#crash_avoidance_part_3)
+    * [Landing Area Part 1](#landing_area_part_1)
 * [Beam_Design](#beam_design)
     * [FEA Part 1](#fea_part_1)
     * [FEA Part 3](#fea_part_3)
@@ -226,6 +227,34 @@ Eventually, I came up with this final version of my code to make everything work
 ### Reflection
 
 This assignment was a little tricky because at first I didn't really understand how to convert my entire loop into something that could be printed onto my OLED display. For this assignment it really helped me to very thoroughly read through the canvas module and use all of that information provided. The wiring was relatively straightforward, although I had to wire up a new breadboard in order to make room for my OLED display, since my previous breadboard was all cluttered up with my MPU-6050, battery adapter, and Circuitpython PicoW board. 
+
+&nbsp;
+
+----
+
+## Landing_Area_Part_1
+
+### Description
+
+The objective and tasks for this assignment are as follows: 
+* The code must ask for the user to input a set of three coordinates in (x,y) format
+* The triangle area must be determined using a function
+* If the user inputs coordinates incorrectly (letters or improper format) the code should return to the input stage, it should not throw an error or exit the script
+* The triangle area must be printed to the screen in this format: “The area of the triangle with vertices (x,y), (x,y), (x,y) is {area} square km.
+* The code must return to the input stage after printing the area, and wait for user input.
+
+
+### Evidence
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/ezgif.com-crop.gif?raw=true" width="300">
+
+### Wiring 
+
+The Wiring for this assignment was not included because it only includes plugging the PicoW board into the computer using a USB to Micro-USB cable. 
+
+### Code 
+
+### Reflection
 
 &nbsp;
 
