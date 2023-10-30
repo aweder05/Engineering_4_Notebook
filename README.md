@@ -246,7 +246,7 @@ The objective and tasks for this assignment are as follows:
 
 ### Evidence
 
-<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/ezgif.com-crop.gif?raw=true" width="300">
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/landingareapart1.gif?raw=true" width="500">
 
 ##### The Video Quality is very low, but still legible, I hope
 
