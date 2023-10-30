@@ -248,13 +248,20 @@ The objective and tasks for this assignment are as follows:
 
 <img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/ezgif.com-crop.gif?raw=true" width="300">
 
+##### The Video Quality is very low, but still legible, I hope
+
 ### Wiring 
 
 The Wiring for this assignment was not included because it only includes plugging the PicoW board into the computer using a USB to Micro-USB cable. 
 
 ### Code 
 
+Click here for a link to the commented code: [link](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/LandingAreaPart1(Functions).py)
+
+Credit goes to Grant Gastinger for the Code, but some of the comments were added by me to better understand the code for myself. 
+
 ### Reflection
+This assignment was by far the most challenging circuit python assignment we've had to do so far. I was unable to get a good start on the coding process myself, so I looked at Grant Gastinger's repository for help. I used his code and ran it on my own PicoW board so that I could see in real time what the code did. Although the code I submitted isn't my own, I utilized it to better understand the process of the code and the different functions in use. 
 
 &nbsp;
 
