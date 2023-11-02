@@ -12,6 +12,7 @@
     * [Crash Avoidance Part 2](#crash_avoidance_part_2)
     * [Crash Avoidance Part 3](#crash_avoidance_part_3)
     * [Landing Area Part 1](#landing_area_part_1)
+    * [Landing Area Part 2](#landing_area_part_2)
 * [Beam_Design](#beam_design)
     * [FEA Part 1](#fea_part_1)
     * [FEA Part 3](#fea_part_3)
@@ -266,6 +267,38 @@ This assignment was by far the most challenging circuit python assignment we've 
 &nbsp;
 
 ----
+
+## Landing_Area_Part_2
+
+### Description
+
+* The code must ask for the user to input a set of three coordinates in (x,y) format
+* The triangle area must be determined using a function
+* If the user inputs coordinates incorrectly (letters or improper format) the code should return to the input stage, it should not throw an error or exit the script
+* The triangle area must be printed to the screen in this format: “The area of the triangle with vertices (x,y), (x,y), (x,y) is {area} square km.
+* The code must return to the input stage after printing the area, and wait for user input.
+* **An onboard OLED screen must plot each triangle on a graph relative to the base location.**
+
+### Evidence
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/landingarepart2.gif?raw=true" height="500">
+
+### Wiring
+
+PicoW was wired to OLED Screen using the following: 
+
+
+### Code
+
+### Reflection
+
+
+
+&nbsp;
+
+----
+
+
 
 ## **Beam_Design**
 
