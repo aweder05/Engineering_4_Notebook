@@ -285,14 +285,23 @@ This assignment was by far the most challenging circuit python assignment we've 
 
 ### Wiring
 
-PicoW was wired to OLED Screen using the following: 
+PicoW was wired to OLED Screen using the following
+* 3V3 (OUT) from the Pico  to Vin on the screen
+* SDA (Data) to GP14
+* SCL (Clk) to GP15
+* Ground to GND. 
 
+###### The only other connection you need is the reset (RST) pin. Connect that to any unused GPIO pin. I did not do this but it was listed in the Canvas assignment: [Crash Avoidance Part 3](Crash_Avoidance_Part_3). Mine worked flawlessly without completing this step. 
 
 ### Code
 
+The link to the commented code is here: [link](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/LandingAreaPart2(Plotting).py)
+
+Credit to the code that is the same from Landing Area Part 1 Goes to Grant Gastinger
+
 ### Reflection
 
-
+This Assignment was definitely not as tricky as the first assignment, but much more tricky than any other rasberry pi assignments. Right now my strategy is to learn the coding process using other people's code, but I would like that to change to more of me figuring out the code from scratch for myself. Many times the code makes sense to me, but I have issues with the syntax of the code or other minor issues that stress me out, such as the order the code has to be in in order to work (this is a problem when I have something that needs to be defined, but the line that defines it is above the line where it is used.) In the future, I would really like to rely more on myself to complete these assignments than on others. 
 
 &nbsp;
 
