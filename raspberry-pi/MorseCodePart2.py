@@ -61,7 +61,7 @@ while True:
             elif RedLedBlink == "/":
                 RedLedBlink.value = False 
                 time.sleep(between_words)
-            RedLedBlink.value = False 
+            RedLed.value = False 
             time.sleep(between_taps)
             
 
