@@ -1,6 +1,7 @@
 #type: ignore
 import board
 import digitalio
+import time 
 
 # Dictionary representing the morse code chart
 MORSE_CODE = { 'A':'.-', 'B':'-...',
