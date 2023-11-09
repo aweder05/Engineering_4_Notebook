@@ -46,8 +46,24 @@ while True:
         for letter in uppercase_text: ##Goes through each inputted letter, and then subsequently translates to morse code 
             print(MORSE_CODE[f"{letter}"], end=" ") ##Prints each letter the user has input into morse code
             translated_string = translated_string + " " + MORSE_CODE[f"{letter}"]
-        for "." 
+        for character in translated_string: 
+            RedLedBlink = MORSE_CODE[letter]
+            if RedLedBlink == '.':
+                RedLed.value = True 
+                time.sleep(dot_time) 
+            if RedLedBlink == '_':
+                RedLed.value = True
+                time.sleep(dash_time)
+            elif RedLedBlink == " ": 
+                RedLedBlink.value = False 
+                time.sleep(between_letters)
+            elif RedLedBlink == "/":
+                RedLedBlink.value = False 
+                time.sleep(between_words)
+            RedLedBlink.value = False 
+            time.sleep(between_taps)
+            
 
-    print("")
+##    print("")
 
-    print(translated_string)
+##    print(translated_string)
