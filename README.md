@@ -321,7 +321,7 @@ The objective of this assignment was to do the following:
 
 ### Wiring 
 
-For this assignment, the PicoW board was wired with a micro-USB to USB cord to the computer. On the board, an LED was wired from GPO to the Ground Rail, and then with a 200 Ohm resistor back to the GND pin on the board. 
+For this assignment, the PicoW board was wired with a micro-USB to USB cord to the computer. 
 
 ### Code 
 
@@ -330,6 +330,40 @@ Here is a link to the **commented** code: [link](https://github.com/aweder05/Eng
 ### Reflection 
 
 This assignment was relatively straightforward, as all I really had to do was convert an input message into an output of dots and dashes using a preset "library" of letter to dots and dashes translation. The only tricky part really was trying to prepare this code for Morse Code Part 2, and to find a way to store the translated code in order for it to be translated into long blinks, short blinks, and pauses. 
+
+&nbsp;
+
+----
+
+## Morse_Code_Part_2
+
+### Description
+The objective of the assignment was to do the following: 
+* Your script must accept text input by the user
+* If the user types “-q”, your script must exit
+* If the user types anything else, your script must translate the text to morse code dots and dashes, and print those to the monitor
+* The printed text must use a space to show breaks between letters, and a slash to show breaks between words
+* **The script must flash an LED to transmit the morse code message using the timing sequence shown below** 
+
+### Evidence 
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/morsecodepart2gif.gif?raw=true">
+
+### Wiring 
+
+For this assignment, the PicoW board was wired with a micro-USB to USB cord to the computer. On the board, an LED was wired from GPO to the Ground Rail, and then with a 200 Ohm resistor back to the GND pin on the board. 
+
+### Code 
+
+Here is a link to the **commented** code: [link](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/MorseCodePart2.py)
+
+### Reflection 
+
+This assignment was a lot more tricky than part one, and took me a lot more class periods to finish than I would've hoped. I really didn't want to rely too much on other people for code on this assignment, as I really wanted to attempt it on my own and tackle the problems by myself. I started off by storing my code in `translated_code` and then used that to convert it into long blinks and short blinks. The hard part of this assignment was a reccurring issue that I've had so many times while coding. My problem most of the times is not really in figuring out a solution, but rather the syntax of my code and the places where certain defined things belong and where they don't belong. I had particular issues in distinguishing between `RedLEDBlink` and `RedLED`. They were both used often in my code, and in many cases I put one in place of the other, and that of course messed up my code. 
+
+&nbsp;
+
+----
 
 ## **Beam_Design**
 
