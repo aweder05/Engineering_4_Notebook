@@ -27,11 +27,11 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
 # space between words is 1+3/4 seconds
 
 modifier = 0.25
-dot_time = 1*modifier
-dash_time = 3*modifier
-between_taps = 1*modifier
-between_letters = 3*modifier
-between_words = 7*modifier
+dot_time = 0.25
+dash_time = 0.75
+between_taps = 0.25
+between_letters = 0.75
+between_words = 1.75
 
 RedLed = digitalio.DigitalInOut(board.GP0) # Sets the pin of the red LED
 RedLed.direction = digitalio.Direction.OUTPUT
@@ -48,18 +48,17 @@ while True:
             print(MORSE_CODE[f"{letter}"], end=" ") ##Prints each letter the user has input into morse code
             translated_string = translated_string + " " + MORSE_CODE[f"{letter}"]
         for character in translated_string: 
-            RedLedBlink = MORSE_CODE[letter]
-            if RedLedBlink == '.':
+            if character == '.':
                 RedLed.value = True 
                 time.sleep(dot_time) 
-            if RedLedBlink == '_':
+            if character == '_':
                 RedLed.value = True
                 time.sleep(dash_time)
-            elif RedLedBlink == " ": 
-                RedLedBlink.value = False 
+            elif character == " ": 
+                RedLed.value = False 
                 time.sleep(between_letters)
-            elif RedLedBlink == "/":
-                RedLedBlink.value = False 
+            elif character == "/":
+                RedLed.value = False 
                 time.sleep(between_words)
             RedLed.value = False 
             time.sleep(between_taps)

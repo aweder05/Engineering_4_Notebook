@@ -13,6 +13,7 @@
     * [Crash Avoidance Part 3](#crash_avoidance_part_3)
     * [Landing Area Part 1](#landing_area_part_1)
     * [Landing Area Part 2](#landing_area_part_2)
+    * [Morse Card Part 1](#morse_code_part_1)
 * [Beam_Design](#beam_design)
     * [FEA Part 1](#fea_part_1)
     * [FEA Part 3](#fea_part_3)
@@ -307,7 +308,28 @@ This Assignment was definitely not as tricky as the first assignment, but much m
 
 ----
 
+## Morse_Code_Part_1 
 
+### Description 
+The objective of this assignment was to do the following: 
+* Your script must accept text input by the user
+* If the user types “-q”, your script must exit
+* If the user types anything else, your script must translate the text to morse code dots and dashes, and print those to the monitor
+* The printed text must use a space to show breaks between letters, and a slash to show breaks between words
+### Evidence 
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/morsecodepart1gif.gif?raw=true" width="400">
+
+### Wiring 
+
+For this assignment, the PicoW board was wired with a micro-USB to USB cord to the computer. On the board, an LED was wired from GPO to the Ground Rail, and then with a 200 Ohm resistor back to the GND pin on the board. 
+
+### Code 
+
+Here is a link to the **commented** code: [link](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/MorseCodePart1.py)
+
+### Reflection 
+
+This assignment was relatively straightforward, as all I really had to do was convert an input message into an output of dots and dashes using a preset "library" of letter to dots and dashes translation. The only tricky part really was trying to prepare this code for Morse Code Part 2, and to find a way to store the translated code in order for it to be translated into long blinks, short blinks, and pauses. 
 
 ## **Beam_Design**
 
