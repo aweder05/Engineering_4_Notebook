@@ -15,6 +15,7 @@
     * [Landing Area Part 2](#landing_area_part_2)
     * [Morse Code Part 1](#morse_code_part_1)
     * [Morse Code Part 2](#morsecodepart2)
+    * [Data Part 1 (Storage)](#data_part_1_(storage))
 * [Beam_Design](#beam_design)
     * [FEA Part 1](#fea_part_1)
     * [FEA Part 3](#fea_part_3)
@@ -361,6 +362,47 @@ Here is a link to the **commented** code: [link](https://github.com/aweder05/Eng
 ### Reflection 
 
 This assignment was a lot more tricky than part one, and took me a lot more class periods to finish than I would've hoped. I really didn't want to rely too much on other people for code on this assignment, as I really wanted to attempt it on my own and tackle the problems by myself. I started off by storing my code in `translated_code` and then used that to convert it into long blinks and short blinks. The hard part of this assignment was a reccurring issue that I've had so many times while coding. My problem most of the times is not really in figuring out a solution, but rather the syntax of my code and the places where certain defined things belong and where they don't belong. I had particular issues in distinguishing between `RedLEDBlink` and `RedLED`. They were both used often in my code, and in many cases I put one in place of the other, and that of course messed up my code. 
+
+&nbsp;
+
+----
+
+## Data_Part_1_(Storage)
+
+### Description 
+
+* Your Pico must operate in “headless” mode – unplugged from the computer with a battery
+* An LED must turn on when the Pico is tilted (same as Crash Avoidance Part 2)
+* Your Pico must record time, X, Y, Z acceleration data, and whether or not the Pico was tilted
+* You must save this information to the Pico’s onboard storage
+* You must blink the onboard LED every time you save data
+* You must be able to retrieve this data when plugged back into the computer
+
+### Evidence 
+
+<image src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/datapart1.gif.gif?raw=true" wdth="300">
+
+##### Above is a gif representing the battery powered system involving the LED turning on when tilted 90 degrees. 
+
+Here is a link to the stored data file, as a spreadsheet: [click here](https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/data.csv)
+
+Here is also an image representing the data file, just part of it to show the TRUE and FALSE function: (notice that when the Z value < 0, it says TRUE, and vice versa for FALSE. True means the LED is on, and False means it it off)
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/data.png?raw=true" width="400">
+
+### Wiring 
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/crashavoidancepart3wiringdiagram.png?raw=true" width="400">
+
+##### Note: this is exactly the same wiring as [Crash Avoidance Part 3](#crash_avoidance_part_3)
+
+### Code 
+
+Here is the link to the **commented** code for this assignment: [link](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/Data_Part_1(Storage).py)
+
+### Reflection 
+
+This assignment wasn't particularly tricky, but it was very tedious to switch between the code and data modes, in order to edit code and then test it. For this reason, this assignment took me the longest out of any of the assignments before. The trickiest party really was to remain patient and trust the process. Learning to do that definitely helped me in consitently being efficient in my coding thought process. 
 
 &nbsp;
 
