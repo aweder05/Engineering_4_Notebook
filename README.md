@@ -15,7 +15,8 @@
     * [Landing Area Part 2](#landing_area_part_2)
     * [Morse Code Part 1](#morse_code_part_1)
     * [Morse Code Part 2](#morsecodepart2)
-    * [Data Part 1 (Storage)](#data_part_1_(storage))
+    * [Data Part 1 Storage](#data_part_1_storage)
+    * [Data Part 2 Analysis](#data_part_2_analysis)
 * [Beam_Design](#beam_design)
     * [FEA Part 1](#fea_part_1)
     * [FEA Part 3](#fea_part_3)
@@ -367,7 +368,7 @@ This assignment was a lot more tricky than part one, and took me a lot more clas
 
 ----
 
-## Data_Part_1_(Storage)
+## Data_Part_1_Storage
 
 ### Description 
 
@@ -403,6 +404,37 @@ Here is the link to the **commented** code for this assignment: [link](https://g
 ### Reflection 
 
 This assignment wasn't particularly tricky, but it was very tedious to switch between the code and data modes, in order to edit code and then test it. For this reason, this assignment took me the longest out of any of the assignments before. The trickiest party really was to remain patient and trust the process. Learning to do that definitely helped me in consitently being efficient in my coding thought process. 
+
+&nbsp;
+
+----
+
+## Data_Part_2_Analysis 
+
+### Description 
+
+The Requirements for this assignment was as follows: 
+* Create a line graph with time on the X axis and acceleration on the Y axis. X, Y, and Z accelerations must be present on the same plot.
+* Create a chart with time on the X axis and whether or not the Pico was tilted on the Y axis. 
+* Title each graph, and label each axis including units. 
+
+### Evidence 
+
+Here is a link to the spreadsheet: [click here](https://docs.google.com/spreadsheets/d/1AmCr3B6QdBX2IHq026aFGyr8H_N7k0QNwFnZ6XW-xFY/edit?usp=sharing)
+
+<img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/datapart2.png?raw=true" width="600">
+
+### Code 
+
+N/A
+
+### Wiring
+
+N/A
+
+### Reflection 
+
+This assignment was unpredictably frustrating to complete due to my incompetence in using Google Sheets. Because I probably let my data continuously upload to my PicoW board for way too long, I have a ton of data to put into my graph, which explains why it looks so stuffed together. All in all, it was interesting to see how the two graphs lined up with their respective points of data, and it was also interesting to see how the Z acceleration relates to tilt on a visual level. 
 
 &nbsp;
 
