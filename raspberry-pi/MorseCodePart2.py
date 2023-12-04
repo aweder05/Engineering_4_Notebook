@@ -1,4 +1,7 @@
 #type: ignore
+
+## I used large portions of Grant Gastinger's code. Here is a link to their notebook: https://github.com/ggastin30/Engineering_4_Notebook 
+ 
 import board
 import digitalio
 import time 

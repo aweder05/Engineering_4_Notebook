@@ -1,5 +1,7 @@
 #type: ignore
 
+## I used large portions of Grant Gastinger's code. Here is a link to their notebook: https://github.com/ggastin30/Engineering_4_Notebook 
+
 import board
 
 def TriArea(x1,y1,x2,y2,x3,y3): #Creates a function to find the area

@@ -265,6 +265,9 @@ Click here for a link to the commented code: [link](https://github.com/aweder05/
 
 Credit goes to Grant Gastinger for the Code, but some of the comments were added by me to better understand the code for myself. 
 
+I used large portions of Grant Gastinger's code. Here is a link to their notebook: https://github.com/ggastin30/Engineering_4_Notebook 
+
+
 ### Reflection
 This assignment was by far the most challenging circuit python assignment we've had to do so far. I was unable to get a good start on the coding process myself, so I looked at Grant Gastinger's repository for help. I used his code and ran it on my own PicoW board so that I could see in real time what the code did. Although the code I submitted isn't my own, I utilized it to better understand the process of the code and the different functions in use. 
 
@@ -302,6 +305,9 @@ PicoW was wired to OLED Screen using the following
 The link to the commented code is here: [link](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/LandingAreaPart2(Plotting).py)
 
 Credit to the code that is the same from Landing Area Part 1 Goes to Grant Gastinger
+
+I used large portions of Grant Gastinger's code. Here is a link to their notebook: https://github.com/ggastin30/Engineering_4_Notebook 
+
 
 ### Reflection
 
@@ -359,6 +365,9 @@ For this assignment, the PicoW board was wired with a micro-USB to USB cord to t
 ### Code 
 
 Here is a link to the **commented** code: [link](https://github.com/aweder05/Engineering_4_Notebook/blob/main/raspberry-pi/MorseCodePart2.py)
+
+I used large portions of Grant Gastinger's code. Here is a link to their notebook: https://github.com/ggastin30/Engineering_4_Notebook 
+
 
 ### Reflection 
 
