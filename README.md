@@ -404,7 +404,7 @@ Here is also an image representing the data file, just part of it to show the TR
 
 <img src="https://github.com/aweder05/Engineering_4_Notebook/blob/main/images/crashavoidancepart3wiringdiagram.png?raw=true" width="400">
 
-##### Note: this is exactly the same wiring as [Crash Avoidance Part 3](#crash_avoidance_part_3)
+##### Note: this is exactly the same wiring as [Crash Avoidance Part 3](#crash_avoidance_part_3) The only exception is the switch wired to GND and GP0
 
 ### Code 
 
